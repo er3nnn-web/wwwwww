@@ -12124,7 +12124,7 @@ au:SetToTheCenter()
 au:Dialog{
 
 Title="Pencereyi Kapat",
-Content="Bu pencereyi kapatmak ister misiniz? Insert Tuşunu Basarak Tekrar Açabilirsiniz.",
+Content="Bu pencereyi kapatmak ister misiniz? Kapatınca Birdaha Açamayacaksınız..",
 Buttons={
 {
 Title="İptal Et",
