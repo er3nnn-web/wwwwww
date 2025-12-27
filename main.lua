@@ -9649,7 +9649,7 @@ ImageTransparency=.6,
 }),
 ah("TextLabel",{
 AutomaticSize="XY",
-Text="This tab is empty",
+Text="Bu Sekme Boş",
 ThemeTag={
 TextColor3="Text"
 },
