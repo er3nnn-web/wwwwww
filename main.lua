@@ -1,17 +1,12 @@
 --[[
-     _      ___         ____  ______
-    | | /| / (_)__  ___/ / / / /  _/
-    | |/ |/ / / _ \/ _  / /_/ // /  
-    |__/|__/_/_//_/\_,_/\____/___/
+_____________________________   _______  __      _______________________ 
+\_   _____/\______   \_____  \  \      \/  \    /  \_   _____/\______   \
+ |    __)_  |       _/ _(__  <  /   |   \   \/\/   /|    __)_  |    |  _/
+ |        \ |    |   \/       \/    |    \        / |        \ |    |   \
+/_______  / |____|_  /______  /\____|__  /\__/\  / /_______  / |______  /
+        \/         \/       \/         \/      \/          \/         \/ 
     
-    v1.6.63  |  2025-12-25  |  Roblox UI Library for scripts
-    
-    To view the source code, see the `src/` folder on the official GitHub repository.
-    
-    Author: Footagesus (Footages, .ftgs, oftgs)
-    Github: https://github.com/Footagesus/WindUI
-    Discord: https://discord.gg/ftgs-development-hub-1300692552005189632
-    License: MIT
+
 ]]
 
 local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()return{
@@ -2198,7 +2193,7 @@ BackgroundTransparency=1,
 at,as,
 })
 
-local av=af("Enter Key","key",nil,"Input",function(av)
+local av=af("Anahtarı Girin","key",nil,"Input",function(av)
 an=av
 end)
 
@@ -2315,7 +2310,7 @@ az.AnchorPoint=Vector2.new(0,1)
 end
 
 if ag.KeySystem.URL then
-ae("Get key","key",function()
+ae("Anahtarı al","key",function()
 setclipboard(ag.KeySystem.URL)
 end,"Secondary",ax.Frame)
 end
@@ -2540,7 +2535,7 @@ task.wait(.4)
 ai(true)
 end
 
-local aA=ae("Submit","arrow-right",function()
+local aA=ae("Gönder","arrow-right",function()
 local aA=tostring(an or"empty")local aB=
 ag.Folder or ag.Title
 
